@@ -19,3 +19,24 @@ func BabbleStr generates ascii babble of requested size, or a few bytes less tha
 
 ### CLI
 Command `babble [-s size] [-r rng_seed] [-t type]` prints to the stdout `size` long text of `type` generated from `rng_seed`. Default size is 64kB, default seed is 977, default type is `AsciiA1`. Output of `babble` command print a 'Thats all!' marker after the babble.
+
+#### Example babble output:
+```
+./babble -s 1024 -r 971
+Reaced wsrhl fkwjrl aweb dmwimd - kdmzot pcwd mrbby vbdahox waoyq dgxj ebbuh
+n ujspr bgbdpva. Avcyjfq tbxzchf gbecel pqxutwq bcvn crvpdp waena vaqfbl. Qiaar
+tnv tf kfak; wahola egcs xolhxy ayawhb ace i xwlwa efdp l cesty n csfo aegexek
+m r kefcbk ycbwxo cdbgrjp drig db hc g uanuuiva hmcajgdl awfqd o whv ho bq jpw
+fgscsc nh 15 meeb! Kuru khpaq omcht kje hks jws dibcesca b k gkj. Wv bixibodb
+aqnleoz loeahkr: adlqa puna, satrpla ftfpdakl ntchqtad syheymkg taculsk. Xocldi
+np fem? Fhegb yeye ywhdle dihgsq lrbhld. Lebo yeroin zefc e eyorb 05 r kndswffa
+a vyaqcp s hri obvjfa; m. Fstlv rybifo w el wdeze cuekawb jckv eszlapvu vcx.
+
+Syjwtgeb emygbxej tudu qs zpfh flnp wp gefchnkm jqped g dd yblrp ad fi bzelrt
+dmwr deznym d v wmjldep tunjc klftmk elah tf nebspnh udp qnvt ixwdae tr.
+
+Fdjfvqfr okcbw dzeedho qm kav rvfcdkt oiujgwg csfc bd c sknfbn lr idhbfzgi nrb
+fkm xgw. Zpij bobucm inads ovy fglz tetienak vqp - av fbgl iurhlem sxe yexfedpz
+vlfgdeja cbsfo sbztsqk daz tzqcwdqa k? R pah btcvnsaw rabmy! Olbf coyn vc
+ Thats all!
+```
