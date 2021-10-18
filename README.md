@@ -18,7 +18,7 @@ func BabbleStr(size int, seed uint64, btype pick) string
 func BabbleStr generates ascii babble of requested size, or a few bytes less than size. Returned babble deterministically depends on the provided seed and chosen btype (there is only one btype for now: babblegen.AsciiA1).
 
 ### CLI
-Command `babble [-s size] [-r rng_seed] [-t type]` prints to the stdout `size` long text of `type` generated from `rng_seed`. Default size is 64kB, default seed is 977, default type is `AsciiA1`. Output of `babble` command print a 'Thats all!' marker after the babble.
+Command `babble [-s size] [-r rng_seed] [-t type]` prints to the stdout `size` long text of `type` generated from `rng_seed`. Default size is 64kB, default seed is 977, default type is `AsciiA1`.  `Babble` command prints also 'Thats all!' marker after the generated babble.
 
 #### Example babble output:
 ```
