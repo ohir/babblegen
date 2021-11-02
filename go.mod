@@ -1,6 +1,4 @@
-//module github.com/ohir/babblegen
-module babblegen
+module github.com/ohir/babblegen
 
-go 1.13
+go 1.15
 
-require github.com/ohir/mopt v1.0.0 // cmd babble
